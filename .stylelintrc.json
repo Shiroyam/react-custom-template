@@ -1,0 +1,19 @@
+{
+  "extends": ["stylelint-config-standard-scss"],
+  "plugins": ["stylelint-order"],
+  "rules": {
+    "indentation": 2,
+    "string-quotes": "double",
+    "no-duplicate-selectors": true,
+    "color-hex-case": "upper",
+    "color-hex-length": "long",
+    "declaration-colon-space-before": "never",
+    "declaration-colon-space-after": "always",
+    "property-no-vendor-prefix": true,
+    "value-no-vendor-prefix": true,
+    "number-leading-zero": "always",
+    "comment-whitespace-inside": "always",
+    "at-rule-no-vendor-prefix": true,
+    "rule-empty-line-before": "always-multi-line"
+  }
+}
